@@ -1,6 +1,6 @@
 ﻿# 项目交接文档 —— AirPressure
 
-版本说明：基于工作区 `AirPressure - 副本`（Windows, .NET 8.0 Windows Forms）。
+版本说明：基于工作区 `AirPressure`（Windows, .NET 8.0 Windows Forms）。
 
 ---
 
