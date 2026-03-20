@@ -94,7 +94,7 @@
             // lblLog
             // 
             lblLog.BorderStyle = BorderStyle.FixedSingle;
-            lblLog.Font = new Font("Microsoft YaHei", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            lblLog.Font = new Font("微软雅黑", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             lblLog.ForeColor = Color.FromArgb(48, 48, 48);
             lblLog.Location = new Point(1578, 48);
             lblLog.Name = "lblLog";
@@ -107,7 +107,7 @@
             // uiLabel1
             // 
             uiLabel1.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel1.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold);
+            uiLabel1.Font = new Font("微软雅黑", 18F, FontStyle.Bold);
             uiLabel1.ForeColor = Color.DeepSkyBlue;
             uiLabel1.Location = new Point(8, 154);
             uiLabel1.Name = "uiLabel1";
@@ -120,7 +120,7 @@
             // uiLabel2
             // 
             uiLabel2.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel2.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold);
+            uiLabel2.Font = new Font("微软雅黑", 18F, FontStyle.Bold);
             uiLabel2.ForeColor = Color.DeepSkyBlue;
             uiLabel2.Location = new Point(8, 242);
             uiLabel2.Name = "uiLabel2";
@@ -133,7 +133,7 @@
             // uiLabel3
             // 
             uiLabel3.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel3.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold);
+            uiLabel3.Font = new Font("微软雅黑", 18F, FontStyle.Bold);
             uiLabel3.ForeColor = Color.DeepSkyBlue;
             uiLabel3.Location = new Point(8, 330);
             uiLabel3.Name = "uiLabel3";
@@ -146,7 +146,7 @@
             // uiLabel4
             // 
             uiLabel4.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel4.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold);
+            uiLabel4.Font = new Font("微软雅黑", 18F, FontStyle.Bold);
             uiLabel4.ForeColor = Color.DeepSkyBlue;
             uiLabel4.Location = new Point(8, 418);
             uiLabel4.Name = "uiLabel4";
@@ -159,7 +159,7 @@
             // txtStation
             // 
             txtStation.Enabled = false;
-            txtStation.Font = new Font("Microsoft YaHei", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            txtStation.Font = new Font("微软雅黑", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
             txtStation.Location = new Point(152, 242);
             txtStation.Margin = new Padding(4, 5, 4, 5);
             txtStation.MinimumSize = new Size(1, 16);
@@ -181,7 +181,7 @@
             dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = Color.FromArgb(80, 160, 255);
-            dataGridViewCellStyle2.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle2.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
             dataGridViewCellStyle2.ForeColor = Color.White;
             dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
@@ -192,21 +192,21 @@
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { CreateTime, SN, TestMode, LeakageRate, TestPressure, TPUL, TPLL, Result });
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = SystemColors.Window;
-            dataGridViewCellStyle3.Font = new Font("SimSun", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle3.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             dataGridViewCellStyle3.ForeColor = Color.FromArgb(48, 48, 48);
             dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Font = new Font("SimSun", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridView1.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             dataGridView1.GridColor = Color.FromArgb(80, 160, 255);
             dataGridView1.Location = new Point(6, 615);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = Color.FromArgb(235, 243, 255);
-            dataGridViewCellStyle4.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle4.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
             dataGridViewCellStyle4.ForeColor = Color.FromArgb(48, 48, 48);
             dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(80, 160, 255);
             dataGridViewCellStyle4.SelectionForeColor = Color.White;
@@ -215,7 +215,7 @@
             dataGridView1.RowHeadersVisible = false;
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = Color.White;
-            dataGridViewCellStyle5.Font = new Font("Microsoft YaHei", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            dataGridViewCellStyle5.Font = new Font("微软雅黑", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             dataGridView1.SelectedIndex = -1;
             dataGridView1.Size = new Size(1566, 358);
@@ -297,7 +297,7 @@
             // 
             datePickerEnd.DateCultureInfo = new System.Globalization.CultureInfo("");
             datePickerEnd.FillColor = Color.White;
-            datePickerEnd.Font = new Font("Microsoft YaHei", 12F);
+            datePickerEnd.Font = new Font("微软雅黑", 12F);
             datePickerEnd.Location = new Point(167, 578);
             datePickerEnd.Margin = new Padding(4, 5, 4, 5);
             datePickerEnd.MaxLength = 10;
@@ -316,7 +316,7 @@
             // 
             // txtSearchSN
             // 
-            txtSearchSN.Font = new Font("Microsoft YaHei", 12F);
+            txtSearchSN.Font = new Font("微软雅黑", 12F);
             txtSearchSN.Location = new Point(325, 578);
             txtSearchSN.Margin = new Padding(4, 5, 4, 5);
             txtSearchSN.MinimumSize = new Size(1, 16);
@@ -334,7 +334,7 @@
             cmbResult.DataSource = null;
             cmbResult.DisplayMember = "PASS";
             cmbResult.FillColor = Color.White;
-            cmbResult.Font = new Font("Microsoft YaHei", 12F);
+            cmbResult.Font = new Font("微软雅黑", 12F);
             cmbResult.ItemHoverColor = Color.FromArgb(155, 200, 255);
             cmbResult.Items.AddRange(new object[] { "", "PASS", "FAIL" });
             cmbResult.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
@@ -352,18 +352,18 @@
             // 
             // btnSearch
             // 
-            btnSearch.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnSearch.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             btnSearch.Location = new Point(728, 553);
             btnSearch.MinimumSize = new Size(1, 1);
             btnSearch.Name = "btnSearch";
             btnSearch.Size = new Size(77, 54);
             btnSearch.TabIndex = 21;
             btnSearch.Text = "查询";
-            btnSearch.TipsFont = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnSearch.TipsFont = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             // 
             // uiLabel5
             // 
-            uiLabel5.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            uiLabel5.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             uiLabel5.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel5.Location = new Point(9, 539);
             uiLabel5.Name = "uiLabel5";
@@ -374,7 +374,7 @@
             // 
             // uiLabel6
             // 
-            uiLabel6.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            uiLabel6.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             uiLabel6.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel6.Location = new Point(167, 539);
             uiLabel6.Name = "uiLabel6";
@@ -385,7 +385,7 @@
             // 
             // uiLabel7
             // 
-            uiLabel7.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            uiLabel7.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             uiLabel7.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel7.Location = new Point(325, 539);
             uiLabel7.Name = "uiLabel7";
@@ -396,7 +396,7 @@
             // 
             // uiLabel8
             // 
-            uiLabel8.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            uiLabel8.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             uiLabel8.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel8.Location = new Point(571, 539);
             uiLabel8.Name = "uiLabel8";
@@ -407,19 +407,19 @@
             // 
             // btnExport
             // 
-            btnExport.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnExport.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             btnExport.Location = new Point(811, 553);
             btnExport.MinimumSize = new Size(1, 1);
             btnExport.Name = "btnExport";
             btnExport.Size = new Size(76, 54);
             btnExport.TabIndex = 26;
             btnExport.Text = "导出";
-            btnExport.TipsFont = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnExport.TipsFont = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             // 
             // uiLine2
             // 
             uiLine2.BackColor = Color.Transparent;
-            uiLine2.Font = new Font("SimSun", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            uiLine2.Font = new Font("宋体", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             uiLine2.ForeColor = Color.FromArgb(48, 48, 48);
             uiLine2.Location = new Point(3, 520);
             uiLine2.MinimumSize = new Size(1, 1);
@@ -430,7 +430,7 @@
             // uiLabel9
             // 
             uiLabel9.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel9.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            uiLabel9.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
             uiLabel9.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel9.Location = new Point(6, 976);
             uiLabel9.Name = "uiLabel9";
@@ -443,7 +443,7 @@
             // lblTotalCount
             // 
             lblTotalCount.BorderStyle = BorderStyle.FixedSingle;
-            lblTotalCount.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            lblTotalCount.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             lblTotalCount.ForeColor = Color.Tomato;
             lblTotalCount.Location = new Point(133, 976);
             lblTotalCount.Name = "lblTotalCount";
@@ -455,7 +455,7 @@
             // lblTotalRate
             // 
             lblTotalRate.BorderStyle = BorderStyle.FixedSingle;
-            lblTotalRate.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            lblTotalRate.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             lblTotalRate.ForeColor = Color.LimeGreen;
             lblTotalRate.Location = new Point(390, 976);
             lblTotalRate.Name = "lblTotalRate";
@@ -467,7 +467,7 @@
             // uiLabel11
             // 
             uiLabel11.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel11.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            uiLabel11.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             uiLabel11.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel11.Location = new Point(263, 976);
             uiLabel11.Name = "uiLabel11";
@@ -480,7 +480,7 @@
             // lblTodayCount
             // 
             lblTodayCount.BorderStyle = BorderStyle.FixedSingle;
-            lblTodayCount.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            lblTodayCount.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             lblTodayCount.ForeColor = Color.FromArgb(0, 192, 192);
             lblTodayCount.Location = new Point(910, 976);
             lblTodayCount.Name = "lblTodayCount";
@@ -492,7 +492,7 @@
             // uiLabel13
             // 
             uiLabel13.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel13.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            uiLabel13.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             uiLabel13.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel13.Location = new Point(772, 976);
             uiLabel13.Name = "uiLabel13";
@@ -504,20 +504,20 @@
             // 
             // btnRefresh
             // 
-            btnRefresh.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnRefresh.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             btnRefresh.Location = new Point(893, 553);
             btnRefresh.MinimumSize = new Size(1, 1);
             btnRefresh.Name = "btnRefresh";
             btnRefresh.Size = new Size(76, 54);
             btnRefresh.TabIndex = 35;
             btnRefresh.Text = "刷新";
-            btnRefresh.TipsFont = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            btnRefresh.TipsFont = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             // 
             // richTxtLog
             // 
             richTxtLog.BackColor = Color.White;
             richTxtLog.BorderStyle = BorderStyle.FixedSingle;
-            richTxtLog.Font = new Font("Microsoft YaHei", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            richTxtLog.Font = new Font("微软雅黑", 12F, FontStyle.Regular, GraphicsUnit.Point, 134);
             richTxtLog.Location = new Point(1578, 72);
             richTxtLog.Name = "richTxtLog";
             richTxtLog.Size = new Size(339, 949);
@@ -527,7 +527,7 @@
             // txtSN
             // 
             txtSN.Enabled = false;
-            txtSN.Font = new Font("Microsoft YaHei", 21.75F, FontStyle.Bold);
+            txtSN.Font = new Font("微软雅黑", 21.75F, FontStyle.Bold);
             txtSN.Location = new Point(151, 154);
             txtSN.Margin = new Padding(4, 5, 4, 5);
             txtSN.MinimumSize = new Size(1, 16);
@@ -542,7 +542,7 @@
             // lblRes
             // 
             lblRes.BorderStyle = BorderStyle.FixedSingle;
-            lblRes.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            lblRes.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
             lblRes.Location = new Point(151, 330);
             lblRes.Name = "lblRes";
             lblRes.Size = new Size(1420, 75);
@@ -556,7 +556,7 @@
             // txtVehicle
             // 
             txtVehicle.Enabled = false;
-            txtVehicle.Font = new Font("Microsoft YaHei", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            txtVehicle.Font = new Font("微软雅黑", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 134);
             txtVehicle.Location = new Point(151, 66);
             txtVehicle.Margin = new Padding(4, 5, 4, 5);
             txtVehicle.MinimumSize = new Size(1, 16);
@@ -571,7 +571,7 @@
             // uiLabel14
             // 
             uiLabel14.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel14.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold);
+            uiLabel14.Font = new Font("微软雅黑", 18F, FontStyle.Bold);
             uiLabel14.ForeColor = Color.DeepSkyBlue;
             uiLabel14.Location = new Point(8, 66);
             uiLabel14.Name = "uiLabel14";
@@ -586,7 +586,7 @@
             datePickerStart.CanEmpty = true;
             datePickerStart.DateCultureInfo = new System.Globalization.CultureInfo("");
             datePickerStart.FillColor = Color.White;
-            datePickerStart.Font = new Font("Microsoft YaHei", 12F);
+            datePickerStart.Font = new Font("微软雅黑", 12F);
             datePickerStart.Location = new Point(9, 578);
             datePickerStart.Margin = new Padding(4, 5, 4, 5);
             datePickerStart.MaxLength = 10;
@@ -607,7 +607,7 @@
             // uiLabel15
             // 
             uiLabel15.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel15.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            uiLabel15.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             uiLabel15.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel15.Location = new Point(1299, 976);
             uiLabel15.Name = "uiLabel15";
@@ -619,7 +619,7 @@
             // 
             // uiLabel17
             // 
-            uiLabel17.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            uiLabel17.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
             uiLabel17.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel17.Location = new Point(493, 976);
             uiLabel17.Name = "uiLabel17";
@@ -631,7 +631,7 @@
             // 
             // uiLabel16
             // 
-            uiLabel16.Font = new Font("Microsoft YaHei", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            uiLabel16.Font = new Font("微软雅黑", 18F, FontStyle.Bold, GraphicsUnit.Point, 134);
             uiLabel16.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel16.Location = new Point(1540, 976);
             uiLabel16.Name = "uiLabel16";
@@ -644,7 +644,7 @@
             // lblTodayRate
             // 
             lblTodayRate.BorderStyle = BorderStyle.FixedSingle;
-            lblTodayRate.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            lblTodayRate.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             lblTodayRate.ForeColor = Color.LimeGreen;
             lblTodayRate.Location = new Point(1437, 976);
             lblTodayRate.Name = "lblTodayRate";
@@ -656,7 +656,7 @@
             // lblTodayFailCount
             // 
             lblTodayFailCount.BorderStyle = BorderStyle.FixedSingle;
-            lblTodayFailCount.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            lblTodayFailCount.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             lblTodayFailCount.ForeColor = Color.Red;
             lblTodayFailCount.Location = new Point(1182, 976);
             lblTodayFailCount.Name = "lblTodayFailCount";
@@ -668,7 +668,7 @@
             // uiLabel20
             // 
             uiLabel20.BorderStyle = BorderStyle.FixedSingle;
-            uiLabel20.Font = new Font("Microsoft YaHei", 15.75F, FontStyle.Bold);
+            uiLabel20.Font = new Font("微软雅黑", 15.75F, FontStyle.Bold);
             uiLabel20.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel20.Location = new Point(1027, 976);
             uiLabel20.Name = "uiLabel20";
@@ -690,7 +690,7 @@
             // uiLabel12
             // 
             uiLabel12.AutoSize = true;
-            uiLabel12.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            uiLabel12.Font = new Font("微软雅黑", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
             uiLabel12.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel12.Location = new Point(1485, 572);
             uiLabel12.Name = "uiLabel12";
@@ -701,7 +701,7 @@
             // btnScanFrm
             // 
             btnScanFrm.Cursor = Cursors.Hand;
-            btnScanFrm.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            btnScanFrm.Font = new Font("微软雅黑", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
             btnScanFrm.Location = new Point(1027, 553);
             btnScanFrm.MinimumSize = new Size(1, 1);
             btnScanFrm.Name = "btnScanFrm";
@@ -709,12 +709,12 @@
             btnScanFrm.Size = new Size(121, 54);
             btnScanFrm.TabIndex = 52;
             btnScanFrm.Text = "设置";
-            btnScanFrm.TipsFont = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            btnScanFrm.TipsFont = new Font("微软雅黑", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
             btnScanFrm.Click += btnScanFrm_Click;
             // 
             // uiLabel10
             // 
-            uiLabel10.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            uiLabel10.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 134);
             uiLabel10.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel10.Location = new Point(1211, 544);
             uiLabel10.Name = "uiLabel10";
@@ -728,7 +728,7 @@
             cmbCH.DataSource = null;
             cmbCH.DropDownStyle = Sunny.UI.UIDropDownStyle.DropDownList;
             cmbCH.FillColor = Color.White;
-            cmbCH.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            cmbCH.Font = new Font("微软雅黑", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
             cmbCH.ItemHoverColor = Color.FromArgb(155, 200, 255);
             cmbCH.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" });
             cmbCH.ItemSelectForeColor = Color.FromArgb(235, 243, 255);
@@ -747,7 +747,7 @@
             // 
             // uiLabel18
             // 
-            uiLabel18.Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Bold);
+            uiLabel18.Font = new Font("微软雅黑", 14.25F, FontStyle.Bold);
             uiLabel18.ForeColor = Color.FromArgb(48, 48, 48);
             uiLabel18.Location = new Point(1182, 563);
             uiLabel18.Name = "uiLabel18";
@@ -759,7 +759,7 @@
             // txtTime
             // 
             txtTime.Enabled = false;
-            txtTime.Font = new Font("Microsoft YaHei", 21.75F, FontStyle.Bold);
+            txtTime.Font = new Font("微软雅黑", 21.75F, FontStyle.Bold);
             txtTime.Location = new Point(152, 418);
             txtTime.Margin = new Padding(4, 5, 4, 5);
             txtTime.MinimumSize = new Size(1, 16);
@@ -817,13 +817,13 @@
             Controls.Add(txtSN);
             Controls.Add(uiLabel1);
             Controls.Add(lblLog);
-            Font = new Font("Microsoft YaHei", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            Font = new Font("微软雅黑", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 134);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
             Name = "FrmMain";
             Padding = new Padding(0, 45, 0, 0);
             Text = "气密测试 - 星驱";
-            TitleFont = new Font("Microsoft YaHei", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            TitleFont = new Font("微软雅黑", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
             TitleHeight = 45;
             ZoomScaleRect = new Rectangle(15, 15, 800, 450);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

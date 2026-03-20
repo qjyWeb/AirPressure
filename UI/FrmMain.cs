@@ -207,6 +207,8 @@ namespace AirPressure
             {
                 _controller?.Dispose();
                 _ = _logService.SaveLogAsync(richTxtLog.Lines);
+                //FrmLogin.Close(); // 关闭登录窗体
+                //FrmLogin.Dispose(); // 释放登录窗体资源
             }
         }
 
